@@ -1,10 +1,3 @@
-# CocoBread-Suite
-Me and da bois are creating a office suite. Its probably going to be crap.
-
-Um Um Um please read me.
-Ummmmmm
-Don't copy our script umm
-and don't be a butt
-so.. uh...
-ummmmmm...
-Be kind to the devs and eachother
+My friends and I have now created a company
+called CocoBread Enterprise and this is our first project.
+On download Extract the zip before use.
