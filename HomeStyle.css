@@ -1,4 +1,4 @@
-﻿h1 {
+h1 {
     font-family: 'Coming Soon';
     font-size: 35px;
     text-align: center;
@@ -18,3 +18,13 @@ p5 {
     font-family: 'Coming Soon';
     text-align: center;
 }
+
+body {background-color: #cfc8c0;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    height: 20%;
+  }
