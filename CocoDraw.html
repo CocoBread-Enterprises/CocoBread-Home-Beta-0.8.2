@@ -1,74 +1,88 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-      <link rel="shortcut icon" type="image/jpg" href="https://github.com/CocoBread-Enterprises/CocoBread-Suite-Beta-0.5/blob/main/Resources/Images/Screen_Shot_2022-02-22_at_1.39.03_PM-removebg-preview.png?raw=true" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-        body {
-          margin: 0;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .topnav {
-          overflow: hidden;
-          background-color: #333;
-        }
-        
-        .topnav a {
-          float: left;
-          color: #f2f2f2;
+        <link rel="shortcut icon" type="image/jpg" href="https://github.com/CocoBread-Enterprises/CocoBread-Suite-Beta-0.5/blob/main/Resources/Images/Screen_Shot_2022-02-22_at_1.39.03_PM-removebg-preview.png?raw=true" />
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+          }
+          
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          .topnav a {
+            float: left;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+          }
+          
+          .topnav a:hover {
+            background-color: rgb(255, 136, 0);
+            color: #462e03;
+          }
+          
+          .topnav a.active {
+            background-color: #462e03;
+            color: rgb(255, 136, 0);
+          }
+          </style>
+          </head>
+          <body>
+          
+          <div class="topnav">
+            <a class="active" href="CocoBread Web.html">CocoHome</a>
+            <a href="CocoSlides.html">CocoSlides</a>
+            <a href="CocoDocs.html">CocoDocs</a>
+            <a href="CocoSpread.html">CocoSpread</a>
+          </div>
+          
+          <div style="padding-left:16px">
+          
+          </body>
+  <head>
+      <style>
+             h1 {
+          color: rgb(63, 52, 52);
+      }
+  
+      h1 {
           text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        .topnav a:hover {
-          background-color: rgb(255, 136, 0);
-          color: #462e03;
-        }
-        
-        .topnav a.active {
-          background-color: #462e03;
-          color: rgb(255, 136, 0);
-        }
-        </style>
-        </head>
-        <body>
-        
-        <div class="topnav">
-          <a class="active" href="CocoBread Web.html">CocoHome</a>
-          <a href="CocoSlides.html">CocoSlides</a>
-          <a href="CocoDocs.html">CocoDocs</a>
-          <a href="CocoSpread.html">CocoSpread</a>
-        </div>
-        
-        <div style="padding-left:16px">
-        
-        </body>
+      }
+      p {
+          color: rgb(63, 52, 52);
+      }
+      p {
+          text-align: center;
+      }
+      </style>
 <head>
-    <style>
-           h1 {
-        color: rgb(63, 52, 52);
-    }
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Draw2.0Style.css">
+    <title>Cocobread Draw 2</title>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="nav">
+        <!-- We will be accessing the data-clr in JavaScript -->
+        <div class="clr" data-clr="#000"></div>
+        <div class="clr" data-clr="#EF626C"></div>
+        <div class="clr" data-clr="#fdec03"></div>
+        <div class="clr" data-clr="#24d102"></div>
+        <div class="clr" data-clr="#FFF"></div>
+        <div class="clr" data-clr="#0f65d4"></div>
+        <button class="clear">clear</button>
+        <button class="save">save</button>
+    </div>
 
-    h1 {
-        text-align: center;
-    }
-    p {
-        color: rgb(63, 52, 52);
-    }
-    p {
-        text-align: center;
-    }
-    </style>
-    <h1>Welcome To CocoBread-Draw</h1>
-    <p>Scroll Down To Begin</p>
-
-
-<link href='https://fonts.googleapis.com/css?family=Coming Soon' rel='stylesheet'>
-<link rel="stylesheet" href="HomeStyle.css">
-<title>CocoBread-Slides</title>
-<head>
-<canvas id=v><script>d=document,d.body.style.margin=0,P="onpointer",c=v.getContext`2d`,v.width=innerWidth,v.height=innerHeight,c.lineWidth=2,f=0,d[P+"down"]=e=>{f=e.pointerId+1;e.preventDefault();c.beginPath();c.moveTo(e.x,e.y)};d[P+"move"]=e=>{f==e.pointerId+1&&c.lineTo(e.x,e.y);c.stroke()},d[P+"up"]=_=>f=0</script></canvas>
-
+    <script src="Draw2.0.js"></script>
+</body>
+</html>
