@@ -7,10 +7,11 @@ form {
     border-radius: 5px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align: center;
   }
 
   input {
+    align: center;
     all: unset;
     font: 16px system-ui;
     color: #fff;
@@ -25,6 +26,7 @@ form {
   }
 
   button {
+    align: center;
     all: unset;
     cursor: pointer;
     width: 44px;
@@ -32,6 +34,7 @@ form {
   }
   
   svg {
+    align: center;
     color: rgb(255, 136, 0);
     fill: currentColor;
     width: 24px;
